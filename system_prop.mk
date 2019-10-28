@@ -58,6 +58,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.asus.camera.use_frame_processor=0 \
     vendor.camera.expTimeMax=0
 
+#Expose aux camera for below packages
+# vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.qualcomm.saltproject2
+# vendor.camera.aux.asus.package_contain=com.asus
+
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.dpm.feature=10 \
