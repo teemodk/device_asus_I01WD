@@ -656,7 +656,7 @@
     <!-- Default state for LiveDisplay -->
     <bool name="config_liveDisplayAvailable">true</bool>
     
-    <!-- Pocket Judge -- >
-    <string name="config_pocketBridgeSysfsInpocket">/sys/kernel/pocket_judge/inpocket</string -->
+    <!-- Pocket Judge -->
+    <!-- string name="config_pocketBridgeSysfsInpocket">/sys/kernel/pocket_judge/inpocket</string -->
 
 </resources>
