@@ -19,6 +19,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.media_vol_steps=25 \
     ro.config.vc_call_vol_steps=7
 
+#Expose aux camera for below packages
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.google.android.GoogleCamera,com.asus.camera
+
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.bluetooth.showdeviceswithoutnames=true \
