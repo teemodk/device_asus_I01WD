@@ -8,3 +8,6 @@ type sysfs_touchscreen, sysfs_type, fs_type;
 
 type sysfs_rg_led, sysfs_type, fs_type;
 type sysfs_graphics, sysfs_type, fs_type;
+
+# vendor camera files
+type vendor_camera_data_file, file_type, data_file_type;

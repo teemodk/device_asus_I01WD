@@ -16,3 +16,6 @@
 
 # Modules
 /system/lib/modules/wlan\.ko	u:object_r:vendor_file:s0
+
+# vendor camera files
+/data/vendor/camera(/.*)?       u:object_r:vendor_camera_data_file:s0
